@@ -1,0 +1,10 @@
+s1 = "sampath"
+res = s1.split('p')
+print(res)
+final = 'p'.join(res)
+print(final)
+age = int(input('enter age :'))
+no = int(input('enter no :'))
+print("the age is {} years old".format(age))
+print("the square of {:10} is {:10.3f} ".format(no, no*no))
+print(f"the square of {no} is {no*no}")
